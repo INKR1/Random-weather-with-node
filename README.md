@@ -41,14 +41,14 @@ To run [this example](https://codesandbox.io/s/weather-rxdub2?file=/package.json
 - Open backend folder in terminal
 
 - CLI command:
-   `npm i nodemon`
-   `npm run dev`
+   `npm i nodemon`. 
+   `npm run dev`. 
 
 - Open frontend folder in terminal
 
 - CLI command:
-   `npm i dead-server`
-   `npm run dev`
+   `npm i dead-server`. 
+   `npm run dev`. 
 
 ## Image
 
