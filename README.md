@@ -34,19 +34,21 @@
 
 To run [this example](https://codesandbox.io/s/weather-rxdub2?file=/package.json):
 
+- Create an account
+
 - Fork the project
 
 - Open backend folder in terminal
 
 - CLI command:
-1. `npm i nodemon`
-2. `npm run dev`
+   `npm i nodemon`
+   `npm run dev`
 
 - Open frontend folder in terminal
 
 - CLI command:
-1. `npm i dead-server`
-2. `npm run dev`
+   `npm i dead-server`
+   `npm run dev`
 
 ## Image
 
