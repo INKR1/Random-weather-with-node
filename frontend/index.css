@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(255, 253, 122, 0.76);
+}
+.show-weather {
+  display: block;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 330px;
+  height: 360px;
+  box-shadow: 0.5em 0.5em 2em rgba(0, 0, 0, 0.3);
+}
+.card__content {
+  display: flex;
+  margin-top: 2.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+.card__image img {
+  max-width: 160px;
+  max-height: 130px;
+}
+.card__degree {
+  font-size: 3em;
+  font-weight: bold;
+}
+.card__status {
+  font-size: 2em;
+}
+.card__footer {
+  display: flex;
+  justify-content: center;
+  columns: 2;
+  position: absolute;
+  bottom: 0px;
+  border-top: 2px solid lightgrey;
+  width: 100%;
+}
+.card__feeling,
+.card__humidity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 50%;
+  font-size: 23px;
+}
+.card__humidity-container {
+  margin-left: 5px;
+}
+.card__feeling {
+  border-right: 1.5px solid lightgrey;
+}
+.card__feeling-container {
+  display: flex;
+}
+.bi {
+  color: deepskyblue;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.card__value-caption {
+  font-size: 13px;
+}
+.card__value-humidity {
+  margin-left: 10px;
+}
+.card__wet-caption {
+  font-size: 13px;
+  margin-left: 10px;
+}
