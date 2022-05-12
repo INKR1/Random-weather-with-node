@@ -2,23 +2,23 @@
 
 ## Description
 
-1. Task is to create object "weather" with these indexes:
+1. Task is to create object "weather" with these conditions:
 
-- Status:
+- Status
 - Degree
 - Feeling
-- Humidity.
+- Humidity
 
-  Status may have randomly selected these values:
+  Status may have randomly selected values:
 
   - Broken Cloud
   - Mostly Sunny
 
-  Degree value should have random numbers from 10 to 25
+  Degree value should have random number from 10 to 25
 
-  Feeling value should have random numbers from 13 to 27
+  Feeling value should have random number from 13 to 27
 
-  Humidity value should have random numbers from 50 to 90
+  Humidity value should have random number from 50 to 90
 
 2. Pass all values from backend using `fetch()` to frontend.
 
@@ -30,16 +30,25 @@
 - HTML
 - CSS
 
-## Live view
+## Prerequisites for live view
 
 To run [this example](https://codesandbox.io/s/weather-rxdub2?file=/package.json):
 
+- Fork the project
+
 - Open backend folder in terminal
 
-- CLI command:`npm run dev`
+- CLI command:
+1. `npm i nodemon`
+2. `npm run dev`
 
 - Open frontend folder in terminal
 
-- CLI command:`npm run dev`
+- CLI command:
+1. `npm i dead-server`
+2. `npm run dev`
 
 ## Image
+
+<img width="892" alt="Weather" src="https://user-images.githubusercontent.com/92999496/168154758-0af6559c-fe79-4a83-973d-683d437d7c29.png">
+
