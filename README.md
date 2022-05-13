@@ -34,9 +34,14 @@
 
 To run [this example](https://codesandbox.io/s/weather-rxdub2?file=/package.json):
 
-- Create an account
+- Create an account or link codesandbox with github
 
 - Fork the project
+
+- After forking the project, check if address in `fetch()` (frontend folder `index.js` file) is the same as in address bar
+
+<img width="1164" alt="Weather forked address" src="https://user-images.githubusercontent.com/92999496/168323956-61568dec-51ad-465c-82b1-77fa1663b187.png">
+
 
 - Open backend folder in terminal
 
